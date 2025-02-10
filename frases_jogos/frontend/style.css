@@ -1,0 +1,89 @@
+body{
+    background-image: url(background/space.jpg);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.titulo{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+.imagem-nome-titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+    
+}
+
+.imagem-formato{
+    position: absolute;
+    width: 350px;
+    height:250px;   
+    margin-left: 10px;
+}
+
+
+.imagem-texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 380px;
+}
+
+.imagem-titulo{
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;
+}
+.imagem-nome{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.imagem-fras {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.botao{
+    font-size: 15px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: black;
+    color: white;
+}
+
+.texto{
+    font-size: 18px;
+}
+
+#frase{
+    font-weight: bold;
+    font-size: 25px;
+}
