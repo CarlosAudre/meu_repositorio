@@ -1,0 +1,141 @@
+*{padding: 0; margin: 0;}
+body{
+    background: linear-gradient(135deg, #1a0e2d, #4b0f57, #7a166b, #0f102f);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2) !important
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+}
+
+.principal_titulo{
+    margin-top: 10%;
+    font-size: 45px;
+    color: rgb(230, 219, 219);
+}
+.negrito{
+    color: white;
+}
+
+.principal_imagem{
+    margin-left: 5%;
+
+}
+
+.tarefas_semanais{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+
+.tarefa{
+   
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   height: 500px;
+   transition: height 0.3s ease-in-out;
+  
+}
+
+
+.tarefa_dia {
+    align-items: center;
+    text-align: center;
+}
+
+
+.tarefa_botoes{
+    display: flex;
+    align-items: center;  
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-top-right-radius: 15px;   
+    border-bottom-right-radius:  15px; 
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.tarefa_botoes:hover {
+    background-color: rgb(152, 52, 209);
+}
+
+
+
+
+.botao_texto{ 
+
+    font-size: 20px;
+    margin-top: 15px;
+    
+    
+}
+
+.mais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    margin-left: 20px; 
+}
+
+.tarefa_adicionada{
+    display: flex;
+    margin-top: 50px;
+    text-align: start;
+    margin-left: 20px;
+    transition: height 0.3s ease-in-out;
+}
+
+.tarefa_adicionada_texto{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 40px;
+    width: 200px;
+    background: none;
+    color: white;
+    resize: none;
+    overflow: hidden;
+
+}
+
+.itens{
+    display: flex;
+}
+
+.circulo_grinfar {
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0);
+    background-color: rgb(0, 211, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.salvar{
+    cursor: pointer;
+}
+
+.deletar{
+    cursor: pointer;
+}

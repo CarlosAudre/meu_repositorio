@@ -1,0 +1,107 @@
+*{padding: 0; margin: 0;}
+
+body{
+   
+    color: white;
+    background: linear-gradient(135deg, #0b0614, #16144a, #2e1f69, #0d102a);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2) !important
+}
+.negrito{
+    color: white;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.principal_titulo{
+    margin-top: 15%;
+    font-size: 45px;
+    color: rgb(230, 219, 219);
+}
+.negrito{
+    color: white;
+}
+
+.principal_imagem{
+    margin-left: 5%;
+
+}
+
+.pomodoro{
+    height: auto;
+    width: 40%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    background-color: rgba(64, 117, 233, 0.2);
+    margin: 0 auto;
+    
+}
+
+.tipos{   
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 15px;
+    padding: 10px;
+}
+
+
+.botao_alterar{
+    font-size: 30px;
+    all: unset;
+    margin: 10px;
+    color: white;
+}
+
+.pomodoro_botao_comecar{
+    font-size: 30px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: #16144a;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+.botao_comecar{ 
+    all: unset;
+    color: white;
+
+}
+
+.cronometro{
+    color: white;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 10rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 3.2rem;
+    text-align: center;
+}
+
+.botao_selecionado{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 2px;
+    background-color: #16144a;
+}
+
