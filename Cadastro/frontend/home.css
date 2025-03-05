@@ -1,0 +1,21 @@
+body{
+    color: white;
+    background: linear-gradient(135deg, #0b0614, #16144a, #2e1f69, #0d102a);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+    
+}
+
+#titulo_{
+    font-size: 50px;
+}
